@@ -1,0 +1,11 @@
+h1{
+    color: red;
+}
+.big{
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid red;
+    display: flex;
+    margin: 100px auto;
+}

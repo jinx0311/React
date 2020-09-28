@@ -1,0 +1,54 @@
+.title{
+    color:red;
+    text-align: center;
+}
+img{
+    width:300px;
+    height:300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.newApp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.titleList{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background:#777;
+    text-align: center;
+    width:100%;
+    color: #dedede;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.titleList li:hover{
+    color: #ffffff;
+}
+.titleList li{
+    width:100px;
+    text-align: center;
+    cursor: pointer;
+}
+.titleBtn{
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-weight: 600;
+    color: #4cc9f0;
+}
+.titleBtn:hover{
+    color: white;
+    border: 0;
+    background-color: #4cc9f0;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+  box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+}

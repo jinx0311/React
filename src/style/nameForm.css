@@ -1,0 +1,28 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 200px auto;
+    width: 230px;
+    align-items: center;
+}
+form input{
+    margin-bottom: 10px;
+}
+form button{
+    background-color: rebeccapurple;
+    color: #fff;
+    border: none;
+    width: 80px;
+    margin-top: 10px;
+}
+.check{
+    width: 66%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+.check input{
+    margin: 0;
+    margin-right: 5px;
+}
